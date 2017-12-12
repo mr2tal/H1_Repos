@@ -13,14 +13,13 @@ namespace ASortedClass
             Contact c1 = new Contact("Alpha", "test1", 5);
             Contact c2 = new Contact("Charlie", "test2", 20);
             Contact c3 = new Contact("Delta", "test3", 35);
-            Contact c4 = new Contact("Bravo", "test4", 10);
+            Contact c4 = new Contact("Bravo", "test4", 30);
                 
             List<Contact> list = new List<Contact>();
             list.Add(c1);
             list.Add(c2);
             list.Add(c3);
             list.Add(c4);
-
             list.Sort();
             
             foreach (Contact item in list)
@@ -76,7 +75,9 @@ namespace ASortedClass
         }
         public int CompareTo(object obj)
         {
-            return this.GetWeight() - ((Contact)obj).GetWeight();
+            //return this.GetWeight() - ((Contact)obj).GetWeight();
+            return this.GetName().CompareTo(((Contact)obj).GetName());
+
         }
 
     }

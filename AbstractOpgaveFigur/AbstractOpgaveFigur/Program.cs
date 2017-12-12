@@ -18,7 +18,7 @@ namespace AbstractOpgaveFigur
             c1.SetAreal(c1.GetSize());
             Console.WriteLine(k1.ToString());
             Console.WriteLine(c1.ToString());
-            Furniture f1 = new Furniture(5);
+            Furniture f1 = new Furniture("dør",5);
 
 
             List<Object> list = new List<Object>();
@@ -31,8 +31,7 @@ namespace AbstractOpgaveFigur
             arr[0] = k1;
             arr[1] = c1;
             arr[2] = f1;
-
-
+            
             foreach (Object item in arr)
             {
                 Console.WriteLine(item.ToString());
@@ -46,7 +45,7 @@ namespace AbstractOpgaveFigur
 
         }
     }
-    abstract class Figur
+    abstract class Figur 
     {
         //fields
         private string _name;
@@ -86,6 +85,7 @@ namespace AbstractOpgaveFigur
         {
             return string.Format("Navn er {0}, Size er {1} og Arealet er {2}", GetName(), GetSize(), GetAreal());
         }
+        
 
     }
     class Kvadrat : Figur
@@ -127,9 +127,18 @@ namespace AbstractOpgaveFigur
     class Furniture
     {
         //fields
+        private string _name;
         private int _size;
 
         //methods
+        public string GetName()
+        {
+            return _name;
+        }
+        public void SetName(string n)
+        {
+            _name = n;
+        }
         public int GetSize()
         {
             return _size;
@@ -142,12 +151,15 @@ namespace AbstractOpgaveFigur
         //override
         public override string ToString()
         {
-            return string.Format("størrelse: {0}", GetSize());
+            return string.Format("navn: {0}, størrelse: {1}", GetName(), GetSize());
         }
         //constructor
-        public Furniture(int s)
+        public Furniture(string n, int s)
         {
+            SetName(n);
             SetSize(s);
         }
+
+
     }
 }
