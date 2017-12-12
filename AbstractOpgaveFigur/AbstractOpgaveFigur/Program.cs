@@ -39,10 +39,6 @@ namespace AbstractOpgaveFigur
             }
             
 
-
-
-            
-
             foreach (Object item in list)
             {
                 Console.WriteLine(item.ToString());
@@ -130,8 +126,10 @@ namespace AbstractOpgaveFigur
     }
     class Furniture
     {
+        //fields
         private int _size;
 
+        //methods
         public int GetSize()
         {
             return _size;
@@ -140,10 +138,13 @@ namespace AbstractOpgaveFigur
         {
             _size = s;
         }
+
+        //override
         public override string ToString()
         {
             return string.Format("størrelse: {0}", GetSize());
         }
+        //constructor
         public Furniture(int s)
         {
             SetSize(s);
