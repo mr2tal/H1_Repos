@@ -14,16 +14,36 @@ namespace AbstractOpgaveFigur
             Kvadrat k2 = new Kvadrat("kvadrat2", 10);
             k1.SetAreal(k1.GetSize());
             k2.SetAreal(k2.GetSize());
-            Cirkel C1 = new Cirkel("cirkel1", 1);
-            C1.SetAreal(C1.GetSize());
+            Cirkel c1 = new Cirkel("cirkel1", 1);
+            c1.SetAreal(c1.GetSize());
             Console.WriteLine(k1.ToString());
-            Console.WriteLine(C1.ToString());
+            Console.WriteLine(c1.ToString());
+            Furniture f1 = new Furniture(5);
 
-            List<Kvadrat> list = new List<Kvadrat>();
+
+            List<Object> list = new List<Object>();
             list.Add(k1);
             list.Add(k2);
+            list.Add(c1);
+            list.Add(f1);
 
-            foreach (Kvadrat item in list)
+            Object[] arr = new Object[3];
+            arr[0] = k1;
+            arr[1] = c1;
+            arr[2] = f1;
+
+
+            foreach (Object item in arr)
+            {
+                Console.WriteLine(item.ToString());
+            }
+            
+
+
+
+            
+
+            foreach (Object item in list)
             {
                 Console.WriteLine(item.ToString());
             }
@@ -106,6 +126,27 @@ namespace AbstractOpgaveFigur
         public override void SetAreal(double s)
         {
             _areal = Math.Pow(GetSize(), 2) * Math.PI;
+        }
+    }
+    class Furniture
+    {
+        private int _size;
+
+        public int GetSize()
+        {
+            return _size;
+        }
+        public void SetSize(int s)
+        {
+            _size = s;
+        }
+        public override string ToString()
+        {
+            return string.Format("størrelse: {0}", GetSize());
+        }
+        public Furniture(int s)
+        {
+            SetSize(s);
         }
     }
 }
