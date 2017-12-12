@@ -1,0 +1,7 @@
+C:\Users\Tec\Documents\NRB\Repo\Kontaktbog\Kontaktbog\bin\Debug\Kontaktbog.exe.config
+C:\Users\Tec\Documents\NRB\Repo\Kontaktbog\Kontaktbog\bin\Debug\Kontaktbog.exe
+C:\Users\Tec\Documents\NRB\Repo\Kontaktbog\Kontaktbog\bin\Debug\Kontaktbog.pdb
+C:\Users\Tec\Documents\NRB\Repo\Kontaktbog\Kontaktbog\obj\Debug\Kontaktbog.csprojResolveAssemblyReference.cache
+C:\Users\Tec\Documents\NRB\Repo\Kontaktbog\Kontaktbog\obj\Debug\Kontaktbog.csproj.CoreCompileInputs.cache
+C:\Users\Tec\Documents\NRB\Repo\Kontaktbog\Kontaktbog\obj\Debug\Kontaktbog.exe
+C:\Users\Tec\Documents\NRB\Repo\Kontaktbog\Kontaktbog\obj\Debug\Kontaktbog.pdb

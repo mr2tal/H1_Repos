@@ -1,0 +1,7 @@
+C:\Users\Tec\Documents\NRB\Repo\lottotest\lottotest\obj\Debug\lottotest.csprojResolveAssemblyReference.cache
+C:\Users\Tec\Documents\NRB\Repo\lottotest\lottotest\obj\Debug\lottotest.csproj.CoreCompileInputs.cache
+C:\Users\Tec\Documents\NRB\Repo\lottotest\lottotest\bin\Debug\lottotest.exe.config
+C:\Users\Tec\Documents\NRB\Repo\lottotest\lottotest\bin\Debug\lottotest.exe
+C:\Users\Tec\Documents\NRB\Repo\lottotest\lottotest\bin\Debug\lottotest.pdb
+C:\Users\Tec\Documents\NRB\Repo\lottotest\lottotest\obj\Debug\lottotest.exe
+C:\Users\Tec\Documents\NRB\Repo\lottotest\lottotest\obj\Debug\lottotest.pdb

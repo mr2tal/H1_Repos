@@ -1,0 +1,7 @@
+C:\Users\Tec\Documents\NRB\Repo\Torsdagstest\Torsdagstest\bin\Debug\Torsdagstest.exe.config
+C:\Users\Tec\Documents\NRB\Repo\Torsdagstest\Torsdagstest\bin\Debug\Torsdagstest.exe
+C:\Users\Tec\Documents\NRB\Repo\Torsdagstest\Torsdagstest\bin\Debug\Torsdagstest.pdb
+C:\Users\Tec\Documents\NRB\Repo\Torsdagstest\Torsdagstest\obj\Debug\Torsdagstest.csprojResolveAssemblyReference.cache
+C:\Users\Tec\Documents\NRB\Repo\Torsdagstest\Torsdagstest\obj\Debug\Torsdagstest.csproj.CoreCompileInputs.cache
+C:\Users\Tec\Documents\NRB\Repo\Torsdagstest\Torsdagstest\obj\Debug\Torsdagstest.exe
+C:\Users\Tec\Documents\NRB\Repo\Torsdagstest\Torsdagstest\obj\Debug\Torsdagstest.pdb

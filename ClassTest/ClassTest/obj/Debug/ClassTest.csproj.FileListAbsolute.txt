@@ -1,0 +1,7 @@
+C:\Users\Tec\Documents\NRB\Repo\ClassTest\ClassTest\bin\Debug\ClassTest.exe.config
+C:\Users\Tec\Documents\NRB\Repo\ClassTest\ClassTest\bin\Debug\ClassTest.exe
+C:\Users\Tec\Documents\NRB\Repo\ClassTest\ClassTest\bin\Debug\ClassTest.pdb
+C:\Users\Tec\Documents\NRB\Repo\ClassTest\ClassTest\obj\Debug\ClassTest.csprojResolveAssemblyReference.cache
+C:\Users\Tec\Documents\NRB\Repo\ClassTest\ClassTest\obj\Debug\ClassTest.csproj.CoreCompileInputs.cache
+C:\Users\Tec\Documents\NRB\Repo\ClassTest\ClassTest\obj\Debug\ClassTest.exe
+C:\Users\Tec\Documents\NRB\Repo\ClassTest\ClassTest\obj\Debug\ClassTest.pdb

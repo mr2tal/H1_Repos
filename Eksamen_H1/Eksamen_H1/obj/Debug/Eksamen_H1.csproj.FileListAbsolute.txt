@@ -1,0 +1,14 @@
+C:\Users\Tec\source\repos\Eksamen_H1\Eksamen_H1\bin\Debug\Eksamen_H1.exe.config
+C:\Users\Tec\source\repos\Eksamen_H1\Eksamen_H1\bin\Debug\Eksamen_H1.exe
+C:\Users\Tec\source\repos\Eksamen_H1\Eksamen_H1\bin\Debug\Eksamen_H1.pdb
+C:\Users\Tec\source\repos\Eksamen_H1\Eksamen_H1\obj\Debug\Eksamen_H1.csprojResolveAssemblyReference.cache
+C:\Users\Tec\source\repos\Eksamen_H1\Eksamen_H1\obj\Debug\Eksamen_H1.csproj.CoreCompileInputs.cache
+C:\Users\Tec\source\repos\Eksamen_H1\Eksamen_H1\obj\Debug\Eksamen_H1.exe
+C:\Users\Tec\source\repos\Eksamen_H1\Eksamen_H1\obj\Debug\Eksamen_H1.pdb
+C:\Users\Tec\Documents\NRB\Repo\Eksamen_H1\Eksamen_H1\bin\Debug\Eksamen_H1.exe.config
+C:\Users\Tec\Documents\NRB\Repo\Eksamen_H1\Eksamen_H1\bin\Debug\Eksamen_H1.exe
+C:\Users\Tec\Documents\NRB\Repo\Eksamen_H1\Eksamen_H1\bin\Debug\Eksamen_H1.pdb
+C:\Users\Tec\Documents\NRB\Repo\Eksamen_H1\Eksamen_H1\obj\Debug\Eksamen_H1.csprojResolveAssemblyReference.cache
+C:\Users\Tec\Documents\NRB\Repo\Eksamen_H1\Eksamen_H1\obj\Debug\Eksamen_H1.csproj.CoreCompileInputs.cache
+C:\Users\Tec\Documents\NRB\Repo\Eksamen_H1\Eksamen_H1\obj\Debug\Eksamen_H1.exe
+C:\Users\Tec\Documents\NRB\Repo\Eksamen_H1\Eksamen_H1\obj\Debug\Eksamen_H1.pdb

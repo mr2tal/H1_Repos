@@ -1,0 +1,7 @@
+C:\Users\Tec\Documents\NRB\Repo\JegErEnAbe\JegErEnAbe\bin\Debug\JegErEnAbe.exe.config
+C:\Users\Tec\Documents\NRB\Repo\JegErEnAbe\JegErEnAbe\bin\Debug\JegErEnAbe.exe
+C:\Users\Tec\Documents\NRB\Repo\JegErEnAbe\JegErEnAbe\bin\Debug\JegErEnAbe.pdb
+C:\Users\Tec\Documents\NRB\Repo\JegErEnAbe\JegErEnAbe\obj\Debug\JegErEnAbe.csprojResolveAssemblyReference.cache
+C:\Users\Tec\Documents\NRB\Repo\JegErEnAbe\JegErEnAbe\obj\Debug\JegErEnAbe.csproj.CoreCompileInputs.cache
+C:\Users\Tec\Documents\NRB\Repo\JegErEnAbe\JegErEnAbe\obj\Debug\JegErEnAbe.exe
+C:\Users\Tec\Documents\NRB\Repo\JegErEnAbe\JegErEnAbe\obj\Debug\JegErEnAbe.pdb

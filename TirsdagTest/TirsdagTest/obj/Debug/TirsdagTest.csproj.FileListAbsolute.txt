@@ -1,0 +1,7 @@
+C:\Users\Tec\Documents\NRB\Repo\TirsdagTest\TirsdagTest\bin\Debug\TirsdagTest.exe.config
+C:\Users\Tec\Documents\NRB\Repo\TirsdagTest\TirsdagTest\bin\Debug\TirsdagTest.exe
+C:\Users\Tec\Documents\NRB\Repo\TirsdagTest\TirsdagTest\bin\Debug\TirsdagTest.pdb
+C:\Users\Tec\Documents\NRB\Repo\TirsdagTest\TirsdagTest\obj\Debug\TirsdagTest.csprojResolveAssemblyReference.cache
+C:\Users\Tec\Documents\NRB\Repo\TirsdagTest\TirsdagTest\obj\Debug\TirsdagTest.csproj.CoreCompileInputs.cache
+C:\Users\Tec\Documents\NRB\Repo\TirsdagTest\TirsdagTest\obj\Debug\TirsdagTest.exe
+C:\Users\Tec\Documents\NRB\Repo\TirsdagTest\TirsdagTest\obj\Debug\TirsdagTest.pdb

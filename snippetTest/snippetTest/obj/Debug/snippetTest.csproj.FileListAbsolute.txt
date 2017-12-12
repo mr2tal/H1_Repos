@@ -1,0 +1,2 @@
+C:\Users\Tec\Documents\NRB\Repo\snippetTest\snippetTest\obj\Debug\snippetTest.csprojResolveAssemblyReference.cache
+C:\Users\Tec\Documents\NRB\Repo\snippetTest\snippetTest\obj\Debug\snippetTest.csproj.CoreCompileInputs.cache

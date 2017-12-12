@@ -1,0 +1,7 @@
+C:\Users\Tec\Documents\NRB\Repo\Mandag_30_11_17\Mandag_30_11_17\bin\Debug\Mandag_30_11_17.exe.config
+C:\Users\Tec\Documents\NRB\Repo\Mandag_30_11_17\Mandag_30_11_17\bin\Debug\Mandag_30_11_17.exe
+C:\Users\Tec\Documents\NRB\Repo\Mandag_30_11_17\Mandag_30_11_17\bin\Debug\Mandag_30_11_17.pdb
+C:\Users\Tec\Documents\NRB\Repo\Mandag_30_11_17\Mandag_30_11_17\obj\Debug\Mandag_30_11_17.csprojResolveAssemblyReference.cache
+C:\Users\Tec\Documents\NRB\Repo\Mandag_30_11_17\Mandag_30_11_17\obj\Debug\Mandag_30_11_17.csproj.CoreCompileInputs.cache
+C:\Users\Tec\Documents\NRB\Repo\Mandag_30_11_17\Mandag_30_11_17\obj\Debug\Mandag_30_11_17.exe
+C:\Users\Tec\Documents\NRB\Repo\Mandag_30_11_17\Mandag_30_11_17\obj\Debug\Mandag_30_11_17.pdb

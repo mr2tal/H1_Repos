@@ -1,0 +1,7 @@
+C:\Users\Tec\Documents\NRB\Repo\LottoNRB\LottoNRB\bin\Debug\LottoNRB.exe.config
+C:\Users\Tec\Documents\NRB\Repo\LottoNRB\LottoNRB\bin\Debug\LottoNRB.exe
+C:\Users\Tec\Documents\NRB\Repo\LottoNRB\LottoNRB\bin\Debug\LottoNRB.pdb
+C:\Users\Tec\Documents\NRB\Repo\LottoNRB\LottoNRB\obj\Debug\LottoNRB.csprojResolveAssemblyReference.cache
+C:\Users\Tec\Documents\NRB\Repo\LottoNRB\LottoNRB\obj\Debug\LottoNRB.csproj.CoreCompileInputs.cache
+C:\Users\Tec\Documents\NRB\Repo\LottoNRB\LottoNRB\obj\Debug\LottoNRB.exe
+C:\Users\Tec\Documents\NRB\Repo\LottoNRB\LottoNRB\obj\Debug\LottoNRB.pdb

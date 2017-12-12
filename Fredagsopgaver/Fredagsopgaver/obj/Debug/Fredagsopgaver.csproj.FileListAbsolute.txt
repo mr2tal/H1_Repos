@@ -1,0 +1,7 @@
+C:\Users\Tec\Documents\NRB\Repo\Fredagsopgaver\Fredagsopgaver\bin\Debug\Fredagsopgaver.exe.config
+C:\Users\Tec\Documents\NRB\Repo\Fredagsopgaver\Fredagsopgaver\bin\Debug\Fredagsopgaver.exe
+C:\Users\Tec\Documents\NRB\Repo\Fredagsopgaver\Fredagsopgaver\bin\Debug\Fredagsopgaver.pdb
+C:\Users\Tec\Documents\NRB\Repo\Fredagsopgaver\Fredagsopgaver\obj\Debug\Fredagsopgaver.csprojResolveAssemblyReference.cache
+C:\Users\Tec\Documents\NRB\Repo\Fredagsopgaver\Fredagsopgaver\obj\Debug\Fredagsopgaver.csproj.CoreCompileInputs.cache
+C:\Users\Tec\Documents\NRB\Repo\Fredagsopgaver\Fredagsopgaver\obj\Debug\Fredagsopgaver.exe
+C:\Users\Tec\Documents\NRB\Repo\Fredagsopgaver\Fredagsopgaver\obj\Debug\Fredagsopgaver.pdb

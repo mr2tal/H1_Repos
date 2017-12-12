@@ -1,0 +1,7 @@
+C:\Repos\AbstractClassTest\AbstractClassTest\bin\Debug\AbstractClassTest.exe.config
+C:\Repos\AbstractClassTest\AbstractClassTest\bin\Debug\AbstractClassTest.exe
+C:\Repos\AbstractClassTest\AbstractClassTest\bin\Debug\AbstractClassTest.pdb
+C:\Repos\AbstractClassTest\AbstractClassTest\obj\Debug\AbstractClassTest.csprojResolveAssemblyReference.cache
+C:\Repos\AbstractClassTest\AbstractClassTest\obj\Debug\AbstractClassTest.csproj.CoreCompileInputs.cache
+C:\Repos\AbstractClassTest\AbstractClassTest\obj\Debug\AbstractClassTest.exe
+C:\Repos\AbstractClassTest\AbstractClassTest\obj\Debug\AbstractClassTest.pdb

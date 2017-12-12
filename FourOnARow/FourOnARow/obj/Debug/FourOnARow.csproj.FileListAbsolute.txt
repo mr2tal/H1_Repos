@@ -1,0 +1,7 @@
+C:\Users\Tec\Documents\NRB\Repo\FourOnARow\FourOnARow\bin\Debug\FourOnARow.exe.config
+C:\Users\Tec\Documents\NRB\Repo\FourOnARow\FourOnARow\bin\Debug\FourOnARow.exe
+C:\Users\Tec\Documents\NRB\Repo\FourOnARow\FourOnARow\bin\Debug\FourOnARow.pdb
+C:\Users\Tec\Documents\NRB\Repo\FourOnARow\FourOnARow\obj\Debug\FourOnARow.csprojResolveAssemblyReference.cache
+C:\Users\Tec\Documents\NRB\Repo\FourOnARow\FourOnARow\obj\Debug\FourOnARow.csproj.CoreCompileInputs.cache
+C:\Users\Tec\Documents\NRB\Repo\FourOnARow\FourOnARow\obj\Debug\FourOnARow.exe
+C:\Users\Tec\Documents\NRB\Repo\FourOnARow\FourOnARow\obj\Debug\FourOnARow.pdb
