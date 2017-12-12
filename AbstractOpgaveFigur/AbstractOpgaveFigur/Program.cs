@@ -11,20 +11,22 @@ namespace AbstractOpgaveFigur
         static void Main(string[] args)
         {
             Kvadrat k1 = new Kvadrat(5);
-            Console.WriteLine(k1.GetAreal());
-            Cirkel C1 = new Cirkel(5);
-            Console.WriteLine(C1.GetAreal());
-
+            k1.SetAreal(k1.GetSize());
+            Cirkel C1 = new Cirkel(1);
+            C1.SetAreal(C1.GetSize());
+            Console.WriteLine(k1.ToString());
+            Console.WriteLine(C1.ToString());
         }
     }
     abstract class Figur
     {
         //fields
         private double _size;
+        protected double _Areal;
 
         //abstract methods
         abstract public double GetAreal();
-
+        abstract public void SetAreal(double s);
 
         //methods
         public double GetSize()
@@ -41,6 +43,11 @@ namespace AbstractOpgaveFigur
         {
             SetSize(s);
         }
+        //override
+        public override string ToString()
+        {
+            return string.Format("Size er {0} og Arealet er {1}", GetSize(), GetAreal());
+        }
 
     }
     class Kvadrat : Figur
@@ -53,19 +60,30 @@ namespace AbstractOpgaveFigur
         //override
         public override double GetAreal()
         {
-            return GetSize() * GetSize();
+            return _Areal; 
         }
+        public override void SetAreal(double s)
+        {
+            _Areal = s * s;
+        }
+
     }
     class Cirkel : Figur
     {
+        //Constructor
         public Cirkel(double s) : base(s)
         {
 
         }
-
+        //Override
         public override double GetAreal()
         {
-            return Math.Pow(GetSize(), 2) * Math.PI;
+            return _Areal;
+        }
+
+        public override void SetAreal(double s)
+        {
+            _Areal = Math.Pow(GetSize(), 2) * Math.PI;
         }
     }
 }
