@@ -30,14 +30,42 @@ namespace BeerOpgave
                 Console.WriteLine(item.ToString());
             }
 
-            beerList.Sort();
-
-            Console.WriteLine("Sorted");
+            beerList.Sort(new CompareName());
+            Console.WriteLine("Sorted by name");
             foreach(Beer item in beerList)
             {
                 Console.WriteLine(item.ToString());
             }
 
+            beerList.Sort(new CompareBeerType());
+            Console.WriteLine("Sorted by beer type");
+            foreach (Beer item in beerList)
+            {
+                Console.WriteLine(item.ToString());
+            }
+
+            beerList.Sort(new ComparePercent());
+            Console.WriteLine("Sorted by percent");
+            foreach (Beer item in beerList)
+            {
+                Console.WriteLine(item.ToString());
+            }
+
+            beerList.Sort(new CompareVolume());
+            Console.WriteLine("Sorted by volume");
+            foreach (Beer item in beerList)
+            {
+                Console.WriteLine(item.ToString());
+            }
+
+            beerList.Sort(new CompareUnits(false));
+            Console.WriteLine("Sorted by units");
+            foreach (Beer item in beerList)
+            {
+                Console.WriteLine(item.ToString());
+            }
+
+            Console.WriteLine("b1 + b2");
             Beer b4 = b1 + b2;
             Console.WriteLine(b4.ToString());
 
@@ -45,7 +73,7 @@ namespace BeerOpgave
 
         }
     }
-    class Beer : IComparable
+    class Beer 
     {
         //fields
         public enum BeerType
@@ -118,14 +146,6 @@ namespace BeerOpgave
         {
             return string.Format("Navn: {0}, Type: {1}, Procent: {2}, Volume: {3}, genstande: {4}", GetName(), GetBeerType(), GetPercent(), GetVolume(), GetUnits());
         }
-        
-        
-        //implement
-
-        public int CompareTo(object obj)
-        {
-            return this.GetName().CompareTo(((Beer)obj).GetName());
-        }
 
         //overload
         public static Beer operator +(Beer b1, Beer b2)
@@ -138,4 +158,53 @@ namespace BeerOpgave
             return b4;
         }
     }
+    class CompareName : IComparer<Beer>
+    {
+        public int Compare(Beer x, Beer y)
+        {
+            return x.GetName().CompareTo(y.GetName());
+        }
+    }
+    class CompareBeerType : IComparer<Beer>
+    {
+        public int Compare(Beer x, Beer y)
+        {
+            return x.GetBeerType().CompareTo(y.GetBeerType());
+        }
+    }
+    class ComparePercent : IComparer<Beer>
+    {
+        public int Compare(Beer x, Beer y)
+        {
+            return x.GetPercent().CompareTo(y.GetPercent());
+        }
+    }
+    class CompareVolume : IComparer<Beer>
+    {
+        public int Compare(Beer x, Beer y)
+        {
+            return x.GetVolume().CompareTo(y.GetVolume());
+        }
+    }
+    class CompareUnits : IComparer<Beer>
+    {
+        private bool _ascend;
+        public CompareUnits(bool asc)
+        {
+            _ascend = asc;
+        }
+        public int Compare(Beer x, Beer y)
+        {
+            if (_ascend)
+            {
+                return x.GetUnits().CompareTo(y.GetUnits());
+            }
+            else
+            {
+                return y.GetUnits().CompareTo(x.GetUnits());
+            }
+
+        }
+    }
+
 }
