@@ -45,7 +45,7 @@ namespace AbstractOpgaveFigur
 
         }
     }
-    abstract class Figur 
+    abstract class Figur
     {
         //fields
         private string _name;
