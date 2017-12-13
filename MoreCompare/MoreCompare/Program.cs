@@ -46,7 +46,7 @@ namespace MoreCompare
             {
                 Console.WriteLine(item.ToString());
             }
-            Array.Sort(teachers, new CompareWeight());
+            Array.Sort(teachers, new CompareWeight(true));
             Console.WriteLine("Sorted by Weight");
             foreach (Teacher item in teachers)
             {
@@ -103,11 +103,36 @@ namespace MoreCompare
         }
     }
 
-    class CompareWeight : IComparer
+    class CompareWeight : IComparer<Teacher>
     {
-        public int Compare(object x, object y)
+        //fields
+        private bool _descending;
+
+        //Methods
+        public bool GetDescending()
         {
-            return ((Teacher)x).Weight.CompareTo(((Teacher)y).Weight);
+            return _descending;
+        }
+        public void SetDescending(bool d)
+        {
+            _descending = d;
+        }
+        //Constructors
+        public CompareWeight(bool d)
+        {
+            SetDescending(d);
+        }
+
+        //IComparer
+        public int Compare(Teacher x, Teacher y)
+        {
+            if (GetDescending() == false)
+            {
+                return x.Weight.CompareTo(y.Weight);
+            }else
+            {
+                return y.Weight.CompareTo(x.Weight);
+            }
         }
     }
 }
